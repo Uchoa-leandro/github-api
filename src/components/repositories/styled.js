@@ -24,11 +24,6 @@ export const WapperTab = styled(Tab)`
   }
 
   &.is-selected {
-    border-top-left-radius: 16px;
-    border-top-right-radius: 16px;
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
-    border-bottom: 1px solid #fff;
     box-shadow: 0 0 0.3em rgba(13, 192, 252, 0.5)
   }
 `;
@@ -58,3 +53,9 @@ export const WapperTabList = styled(TabList)`
 `;
 
 WapperTabList.tabsRole = "TabList";
+
+export const WrapperList = styled.div`
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+`;
